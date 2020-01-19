@@ -33,7 +33,7 @@ allprojects {
         mavenLocal()
         maven("https://jitpack.io")
         maven {
-            url = uri("http://repo1.maven.org/maven2")
+            url = uri("https://repo1.maven.org/maven2")
         }
         google()
         jcenter()
