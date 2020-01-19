@@ -108,8 +108,8 @@ kotlin {
             dependencies {
                 implementation(Config.common.dependencies.stdlib)
                 implementation(Config.common.dependencies.serialization)
-                implementation(Config.ios.dependencies.ktor)
-                implementation(Config.ios.dependencies.ktor_auth)
+                implementation(Config.common.dependencies.ktor)
+                implementation(Config.common.dependencies.ktor_auth)
                 implementation(Config.common.dependencies.coroutines)
                 implementation(kotlin("reflect"))
             }
@@ -125,8 +125,8 @@ kotlin {
             dependencies {
                 implementation(Config.android.dependencies.stdlib)
                 implementation(Config.android.dependencies.serialization)
-                implementation(Config.ios.dependencies.ktor)
-                implementation(Config.ios.dependencies.ktor_auth)
+                implementation(Config.android.dependencies.ktor)
+                implementation(Config.android.dependencies.ktor_auth)
                 implementation(Config.android.dependencies.coroutines)
                 implementation(Config.android.dependencies.coroutines_core)
             }

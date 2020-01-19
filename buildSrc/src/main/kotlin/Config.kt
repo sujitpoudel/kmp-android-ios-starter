@@ -19,7 +19,7 @@ object Versions {
     const val robolectric = "4.3"
     const val junit = "4.12"
     const val aws_sdk_core = "1.11.5"
-    const val ktor = "1.2.4"
+    const val ktor = "1.3.0"
 }
 
 object ProjectVersions {
