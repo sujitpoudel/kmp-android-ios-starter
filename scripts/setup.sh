@@ -161,6 +161,7 @@ function setup() {
             echo "=========================================================="
         fi
     done
+    getGroup
     echo "Creating folder now: ${fullPath}"
     copyProjectToPath "${location}" "${name}"
     setNameAndGroupToConfigAndSettings
